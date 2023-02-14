@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(234, 222, 224);
+    background-color: rgb(255, 255, 255);
 }
 .fs-5 {
     font-size: 2.50rem!important;
@@ -128,6 +128,304 @@ font-size: 1.50rem!important;;
     background-color: blue;
 }
     
-.rr{
+.we{
+  font-size: 50px !important;
+
+}
+.p{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    background-color: yellow;
+    border-radius: 20px;
+   
+
+}
+.fa-television{
+    position: absolute;
+    top:20px;
+    right:10px;
+    font-size: 40px;
+    color: rgb(24, 24, 24);
     
+}
+.box{
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-commenting{
+        position: absolute;
+        top:17px;
+        right:11px;
+        font-size: 40px;
+        color: rgb(246, 246, 246);
+}
+.fa-file-text-o{
+    position: absolute;
+        top:17px;
+        right:11px;
+        font-size: 40px;
+        color: rgb(24, 24, 24);
+}
+.p2{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    background-color: rgb(19, 69, 235);
+    border-radius: 20px;
+}
+.p1{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    background-color: rgb(150, 70, 153);
+    border-radius: 20px;
+}
+.s1{
+    position: relative;
+    border: 1px solid aqua;
+    width: 350px;
+    height: 400px;
+    margin-top: 90px;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: -10px 10px 0px 10px rgb(160, 17, 162);
+    
+}
+.sc1{
+position: absolute;
+border: 1px solid rgb(255, 255, 255);
+height: 100px;
+width: 300px;
+right:-8px;
+top: 50px;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+}
+.sc2{
+    top: 260px;
+    left: -31px;
+}
+.img22{
+    position: absolute;
+    top:2px;
+    left:10px;
+    height: 80px;
+    width: 60px;
+    border-radius: 50px;
+}
+.im{
+    position: absolute;
+    top:2px;
+    left:230px;
+    height: 80px;
+    width: 60px;
+    border-radius: 50px;
+
+}
+.hc{
+    position: absolute;
+    right: 2px;
+    top:10px;
+}
+.p4{
+    top:30px;
+    right: 15px;
+    
+}
+.hc2{
+    top:280px;
+   left:-37px;
+    
+}
+.p5{
+    top:300px;
+   left:-37px; 
+}
+.ptb-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about{
+    background-color: rgb(217, 203, 205);
+}
+.about2{
+    background-color: rgb(195, 191, 192);
+}
+.our{
+    position: relative;
+}
+.all{
+    position: absolute;
+    bottom: 15px;
+    left: 88%;
+    width: 12%;
+}
+.lap1{
+   height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.lap1-img{
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+
+    
+}
+.basic{
+border: 1px solid rgb(255, 255, 255);
+position: absolute;
+bottom: 0;
+width: 55%;
+height: 45%;
+right: 0;
+background-color: aliceblue;
+border-radius: 20px;
+}
+.fa-calendar-minus-o{
+    
+}
+.web1{
+    position: absolute;
+    left: 20px;
+    top:20px
+}
+.class{
+    position: absolute;
+  bottom: 0px;
+  right: 10px;
+  color: rgb(61, 12, 242);
+
+}
+.Months{
+    color: rgb(61, 12, 242)
+}
+.basic2{
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    height: 45%;
+    right: 0;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.cc1{
+    position: relative;
+}
+.cc3{
+    position: relative
+}
+.basic3{
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    height: 45%;
+    right: 0;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.rr4{
+    margin-top: 150px!important;
+}
+.sec4{
+    background-color: rgb(228, 186, 193);
+}
+   
+.rr5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pp6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.ptb-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.submit{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.cc7 .input{
+    position: absolute;
+    width: 500px;
+    height: 70px;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top:0px;
+    right: 0;
+}
+.cc7{ 
+  height: 70px;
+  position: relative;
+ 
+}
+.cc8{
+    position: relative;
+}
+.input1{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top:0px;
+    left:0;
+    background-color: blue;
+}
+.ss8{
+    background-color: rgb(235, 227, 238);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.cc9{
+    position: relative;
+}
+.hh3{
+    position: absolute;
+    top:0px
+}
+.center8{
+    padding-left: 0px;
+    list-style-type: none;
+}
+.ul2{
+    display: inline-block;
+   padding-left: 0px;
+}
+.ptr-1{
+    padding-left: 0px;
+    padding-right: 10px;
 }
