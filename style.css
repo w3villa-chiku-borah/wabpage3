@@ -1,11 +1,66 @@
 body{
     background-color: rgb(255, 255, 255);
+   
+}
+.plr-10{
+    padding-right: 30px;
+    padding-left: 30px;
+  
+overflow: hidden;
+}
+.about{
+    overflow-x: hidden;
+    
 }
 .fs-5 {
     font-size: 2.50rem!important;
 }
 .hello{
     word-spacing: 20px;
+}
+.rr11{
+    height: 150px;
+}
+@media screen and (max-width:1400px) {
+    .cc1 {
+   
+    }
+    .hello{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        z-index: 10;
+        display: none!important;
+
+    }
+    .hello li{
+        background-color: aliceblue;
+
+    }
+    .hello li a{
+        display: block;
+        border-bottom: 1px solid black;
+        background-color: aliceblue;
+
+    }
+    .hello .signup{
+        color: rgb(21, 21, 21)!important;
+        background-color: rgb(79, 79, 162);
+        border: none;
+    }
+    .cc1 .bars{
+        position: absolute;
+        top: -4px;
+        right: 50px;
+        font-size: 60px
+    }
+}
+@media screen and (min-width:1400px){
+    .bars{
+        display: none;
+    }
 }
 .btn{
     border-left-width: 22px;
@@ -55,6 +110,10 @@ font-size: 1.50rem!important;;
         font-size: 40px;
         color: blue;
     }
+    @media screen and ( max-width:992px){
+       
+      
+}
     .sh{
         position: relative;
 
@@ -211,7 +270,7 @@ border-radius: 20px;
 }
 .sc2{
     top: 260px;
-    left: -31px;
+    left: -12px;
 }
 .img22{
     position: absolute;
@@ -242,12 +301,12 @@ border-radius: 20px;
 }
 .hc2{
     top:280px;
-   left:-37px;
+   left:-10px;
     
 }
 .p5{
     top:300px;
-   left:-37px; 
+   left:-10px; 
 }
 .ptb-100{
     padding-top: 100px;
@@ -258,6 +317,7 @@ border-radius: 20px;
 }
 .about2{
     background-color: rgb(195, 191, 192);
+    overflow: hidden;
 }
 .our{
     position: relative;
@@ -273,6 +333,7 @@ border-radius: 20px;
     display: flex;
     justify-content: center;
     position: relative;
+    padding-top: 20px;
 }
 .lap1-img{
     width: 80%;
@@ -288,7 +349,7 @@ position: absolute;
 bottom: 0;
 width: 55%;
 height: 45%;
-right: 0;
+right: 34px;
 background-color: aliceblue;
 border-radius: 20px;
 }
@@ -308,7 +369,8 @@ border-radius: 20px;
 
 }
 .Months{
-    color: rgb(61, 12, 242)
+    color: rgb(61, 12, 242);
+   
 }
 .basic2{
     border: 1px solid rgb(255, 255, 255);
@@ -316,15 +378,23 @@ border-radius: 20px;
     bottom: 0;
     width: 55%;
     height: 45%;
-    right: 0;
+    right: 34px;
     background-color: aliceblue;
     border-radius: 20px;
 }
 .cc1{
+    height: 500px;
+    display: flex;
+    justify-content: center;
     position: relative;
+    padding-top: 20px;
 }
 .cc3{
-    position: relative
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
 }
 .basic3{
     border: 1px solid rgb(255, 255, 255);
@@ -332,15 +402,40 @@ border-radius: 20px;
     bottom: 0;
     width: 55%;
     height: 45%;
-    right: 0;
+    right: 34px;
     background-color: aliceblue;
     border-radius: 20px;
+}
+.class{
+    position: absolute;
+    top:160px;
+}
+@media screen and (max-width:1199px){
+    .Months{
+        position: absolute;
+        top: 160px;
+    }
+    .class{
+        position: absolute;
+        bottom:-30px
+    }
+}
+@media screen and (min-width:992px){
+    .Months{
+        position: absolute;
+        top: 160px;
+    }
+    .class{
+        position: absolute;
+        bottom:-30px
+    }
 }
 .rr4{
     margin-top: 150px!important;
 }
 .sec4{
     background-color: rgb(228, 186, 193);
+    overflow-x: hidden;
 }
    
 .rr5{
@@ -369,30 +464,31 @@ border-radius: 20px;
     flex-direction: column;
 }
 .cc7 .input{
-    position: absolute;
+    
     width: 500px;
     height: 70px;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px;
     font-size: 30px;
     border: none;
     outline: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     top:0px;
     right: 0;
+    margin-left: 225px;
 }
 .cc7{ 
   height: 70px;
-  position: relative;
+  /* position: relative; */
  
 }
 .cc8{
     position: relative;
 }
 .input1{
-    position: absolute;
+    
     width: 200px;
     height: 70px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 20px;
     font-size: 30px;
     border: none;
     outline: none;
@@ -400,6 +496,7 @@ border-radius: 20px;
     top:0px;
     left:0;
     background-color: blue;
+    margin-left: -154px;
 }
 .ss8{
     background-color: rgb(235, 227, 238);
@@ -429,3 +526,53 @@ border-radius: 20px;
     padding-left: 0px;
     padding-right: 10px;
 }
+@media screen and (max-width:770px){
+    .cc7 .input{
+        border-radius: 20px;
+        width:250px;
+       
+    }
+    .input1{
+        border-radius: 20px;
+        margin-left: 150px;
+        height: 50px;
+    }
+    .cc7{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:460px){
+    .cc7 .input{
+        border-radius: 20px;
+        width:250px;
+       
+    }
+    .input1{
+        border-radius: 20px;
+        margin-left: 100px;
+        height: 50px;
+    }
+    .cc7{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+    @media screen  and (max-width:991px){
+        .input{
+            margin-left: 10px!important;
+        }
+    }
+    @media screen  and (min-width:770px) and (max-width:1199px){
+        .input{
+            margin-left: 160px!important;
+        }
+    }
+    @media screen  and (min-width:768px) and (max-width:991px){
+        .input{
+            margin-left: 5px!important;
+        }
+    }
+
